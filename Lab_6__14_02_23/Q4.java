@@ -1,0 +1,2 @@
+/*Q4.   Write a program in Java to define a class Rectangle having data member: length and breadth;
+ to calculate the area and perimeter of the rectangle. Use member functions to read, calculate and display. */
