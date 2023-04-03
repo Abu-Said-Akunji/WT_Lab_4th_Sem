@@ -1,13 +1,12 @@
 //Q1. Program to print your name, roll no, section and branch in separate lines.
 
-import java.util.Scanner;
+import java.util.*;
 
-class Q1
-{
-    public static void main(String[] args)
-    {
-        
+class Q1 {
+    public static void main(String[] args) {
+
         Scanner S = new Scanner(System.in);
+
         System.out.print("Enter your name: ");
         String name = S.nextLine();
         System.out.print("Enter your section: ");
@@ -17,5 +16,6 @@ class Q1
         System.out.println("\nName is: " + name);
         System.out.println("Roll no. is: " + roll);
         System.out.println("Section is: " + Sec);
+
     }
 }

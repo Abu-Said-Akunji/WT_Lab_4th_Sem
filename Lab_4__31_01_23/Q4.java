@@ -7,7 +7,8 @@ public class Q4 {
         Scanner in = new Scanner(System.in);
         System.out.print("Input a number: ");
         int n = in.nextInt();
-        int sum = 0, r;
+        int sum = 0;
+        int r;
         int temp = n;
         while (n > 0) {
             r = n % 10;
